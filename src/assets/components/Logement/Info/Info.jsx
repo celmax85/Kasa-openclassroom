@@ -1,4 +1,4 @@
-import "./Info.css"
+import "./Info.scss"
 import PropTypes from "prop-types"
 
 function Info(props) {

@@ -1,4 +1,4 @@
-import "./About.css"
+import "./About.scss"
 
 import Banner from "../../assets/components/About/Banner/Banner"
 import AboutContent from "../../assets/components/About/Description/Description"

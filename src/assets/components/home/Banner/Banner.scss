@@ -1,0 +1,56 @@
+@use "../../../Variable/variable.scss" as colors;
+
+.banner {
+    position: relative;
+    max-width: 1240px;
+    height: 223px;
+    margin: auto;
+    border-radius: 25px;
+    background-image: url("./src/assets/image/banner/banner01.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: colors.$color-tertiary-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  
+    &::before {
+      position: absolute;
+      content: "";
+      inset: 0;
+      border-radius: 25px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  
+    h1 {
+      z-index: 1;
+      color: colors.$color-tertiary-white;
+      font-size: 48px;
+      line-height: 69px;
+      font-weight: 500;
+      @media screen and (max-width: 768px) {
+        font-size: 24px;
+        line-height: 34.22px;
+        width: 40%;
+        align-self: flex-start;
+      }
+      @media screen and (max-width: 425px) {
+        width: 60%;
+      }
+      @media screen and (max-width: 375px) {
+        width: 70%;
+      }
+      @media screen and (max-width: 320px) {
+        width: 84%;
+      }
+
+    }
+  
+    @media screen and (max-width: 768px) {
+      height: 111px;
+      justify-content: flex-start;
+      padding-left: 20px;
+    }
+  }

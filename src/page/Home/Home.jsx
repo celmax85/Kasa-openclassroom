@@ -1,8 +1,8 @@
-import "./Home.css"
+import "./Home.scss"
 import Banner from "../../assets/components/home/Banner/Banner"
 import AppartGrid from "../../assets/components/home/AppartementGrid/Appartgrid"
 
-function App() {
+function Home() {
   return (
       <main>
       <Banner />
@@ -11,4 +11,4 @@ function App() {
   )
 }
 
-export default App
+export default Home

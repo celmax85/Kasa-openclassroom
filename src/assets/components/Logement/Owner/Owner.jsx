@@ -1,4 +1,4 @@
-import "./Owner.css"
+import "./Owner.scss"
 import PropTypes from "prop-types"
 
 function Owner(props) {

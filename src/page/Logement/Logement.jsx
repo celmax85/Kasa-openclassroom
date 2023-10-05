@@ -1,4 +1,4 @@
-import "./Logement.css";
+import "./Logement.scss";
 
 import Description from "../../assets/components/Logement/Description/Description";
 import Banner from "../../assets/components/Logement/Banner/Banner";

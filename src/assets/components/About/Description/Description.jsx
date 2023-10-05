@@ -1,4 +1,4 @@
-import "./Description.css"
+import "./DescriptionAbout.scss"
 import PropTypes from "prop-types"
 import { useState } from "react"
 
@@ -9,12 +9,13 @@ function Description(props) {
         setIscontentvisible(!iscontentvisible);
     }
 
-    const contentClass = (iscontentvisible ? "visible" : "hidden") + " description-info";
+    const contentClass = (iscontentvisible ? "visible" : "hidden") + " about-info";
     const chevronClass = (iscontentvisible ? "fa-chevron-up" : "fa-chevron-down") + " fas";
+    const AppartClass = (iscontentvisible ? "visible" : "hidden") + " about-content";
 
     return (
-        <div className="appart-description">
-            <p className="description-title" onClick={showContent}>
+        <div className={AppartClass}>
+            <p className="about-title" onClick={showContent}>
                 <span>{props.title}</span>
                 <i className={chevronClass}></i>
             </p>

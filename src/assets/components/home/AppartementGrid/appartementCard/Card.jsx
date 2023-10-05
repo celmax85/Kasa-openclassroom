@@ -1,4 +1,4 @@
-import "./Card.css"
+import "./Card.scss"
 import { Link } from "react-router-dom"
 import PropTypes from "prop-types"
 

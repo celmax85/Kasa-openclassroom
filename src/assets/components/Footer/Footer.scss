@@ -1,0 +1,18 @@
+@use "../../Variable/variable.scss" as colors;
+
+footer {
+    background-color: colors.$color-background-black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    min-height: 326px;
+  
+    .footer-text {
+      color: colors.$color-tertiary-white;
+      font-size: 16px;
+      line-height: 22.86px;
+      margin-bottom: 1rem;
+    }
+  }

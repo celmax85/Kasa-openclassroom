@@ -1,4 +1,4 @@
-import "./Error.css"
+import "./Error.scss"
 import Navbar from "../../assets/components/Navbar/Navbar"
 import Footer from "../../assets/components/Footer/Footer"
 import { Link } from "react-router-dom"

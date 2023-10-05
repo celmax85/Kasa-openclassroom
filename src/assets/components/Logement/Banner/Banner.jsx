@@ -1,4 +1,4 @@
-import "./Banner.css"
+import "./Banner.scss"
 import PropTypes from "prop-types"
 import { useState } from "react"
 

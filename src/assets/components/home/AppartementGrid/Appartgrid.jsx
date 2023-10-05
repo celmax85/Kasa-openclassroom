@@ -1,4 +1,4 @@
-import "./Appartgrid.css";
+import "./Appartgrid.scss";
 import Apartement from "./appartementCard/Card";
 import { useAppart } from "../../../hook/useAppart";
 
