@@ -1,6 +1,6 @@
 import "./Logement.scss";
 
-import Description from "../../assets/components/Logement/Description/Description";
+import Description from "../../assets/components/About/Description/Description";
 import Banner from "../../assets/components/Logement/Banner/Banner";
 import Info from "../../assets/components/Logement/Info/Info";
 import Owner from "../../assets/components/Logement/Owner/Owner";
