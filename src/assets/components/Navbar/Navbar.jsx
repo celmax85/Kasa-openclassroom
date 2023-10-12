@@ -6,7 +6,7 @@ function Navbar() {
     <header>
       <nav className='navbar'>
         <NavLink to="/" className='navbar-logo'>
-          <img src="./src/assets/image/logo/logo.png" alt="" />
+          <img src="https://ucarecdn.com/df6508a7-02aa-4855-aeaf-a07dff99e282/-/preview/500x500/-/quality/smart/-/format/auto/" alt="" />
         </NavLink>
         <NavLink to="/">
           <div>Accueil</div>
