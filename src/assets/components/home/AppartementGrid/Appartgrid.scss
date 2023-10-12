@@ -1,0 +1,16 @@
+@use "../../../Variable/variable.scss" as colors;
+
+.Grille {
+    background-color: colors.$color-secundairy-background;
+    min-height: 50vh;
+    padding: 1rem;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  
+    @media screen and (max-width: 768px) {
+      background-color: transparent;
+    }
+  }

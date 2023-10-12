@@ -1,0 +1,16 @@
+body {
+  margin: auto;
+  padding: 0;
+  max-width: 1440px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+main {
+  margin-bottom: 3rem;
+  margin: 45px 100px;
+
+  @media screen and (width <= 425px) {
+    margin: 20px 20px 0 20px;
+  }
+}
